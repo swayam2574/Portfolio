@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Swayam Kumar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-950 text-gray-100">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-950/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="index.html" class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold">SK</span>
+                    </div>
+                </a>
+
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="index.html" class="nav-link px-4 py-2 rounded-lg transition-colors">Home</a>
+                    <a href="about.html" class="nav-link px-4 py-2 rounded-lg transition-colors">About</a>
+                    <a href="education.html" class="nav-link px-4 py-2 rounded-lg transition-colors">Education</a>
+                    <a href="skills.html" class="nav-link active px-4 py-2 rounded-lg transition-colors">Skills</a>
+                    <a href="projects.html" class="nav-link px-4 py-2 rounded-lg transition-colors">Projects</a>
+                    <a href="certifications.html" class="nav-link px-4 py-2 rounded-lg transition-colors">Certifications</a>
+                    <a href="achievements.html" class="nav-link px-4 py-2 rounded-lg transition-colors">Achievements</a>
+                    <a href="contact.html" class="nav-link px-4 py-2 rounded-lg transition-colors">Contact</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-gray-300 hover:bg-gray-800">
+                    <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                    <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden py-4 space-y-2">
+                <a href="index.html" class="block px-4 py-2 rounded-lg text-gray-300 hover:bg-gray-800">Home</a>
+                <a href="about.html" class="block px-4 py-2 rounded-lg text-gray-300 hover:bg-gray-800">About</a>
+                <a href="education.html" class="block px-4 py-2 rounded-lg text-gray-300 hover:bg-gray-800">Education</a>
+                <a href="skills.html" class="block px-4 py-2 rounded-lg bg-purple-600 text-white">Skills</a>
+                <a href="projects.html" class="block px-4 py-2 rounded-lg text-gray-300 hover:bg-gray-800">Projects</a>
+                <a href="certifications.html" class="block px-4 py-2 rounded-lg text-gray-300 hover:bg-gray-800">Certifications</a>
+                <a href="achievements.html" class="block px-4 py-2 rounded-lg text-gray-300 hover:bg-gray-800">Achievements</a>
+                <a href="contact.html" class="block px-4 py-2 rounded-lg text-gray-300 hover:bg-gray-800">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="min-h-screen px-4 py-24">
+        <div class="max-w-6xl mx-auto">
+            <!-- Page Header -->
+            <div class="mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                    Technical <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-600">Skills</span>
+                </h1>
+                <div class="w-20 h-1 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-full"></div>
+                <p class="mt-4 text-gray-400">Technologies and tools I work with</p>
+            </div>
+
+            <!-- Skills Grid -->
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Programming Languages -->
+                <div class="bg-gray-900 rounded-2xl p-8 border border-gray-800 hover:border-purple-500/50 transition-all duration-300">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="p-3 bg-purple-600/20 rounded-lg">
+                            <svg class="w-7 h-7 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold">Programming Languages</h2>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Java</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Python</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">HTML/CSS</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">JavaScript</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">MySQL</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">React</span>
+                        <!-- TODO: Add more programming languages if needed -->
+                    </div>
+                </div>
+
+                <!-- Areas of Interest -->
+                <div class="bg-gray-900 rounded-2xl p-8 border border-gray-800 hover:border-purple-500/50 transition-all duration-300">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="p-3 bg-purple-600/20 rounded-lg">
+                            <svg class="w-7 h-7 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold">Areas of Interest</h2>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Data Structures and Algorithms (DSA)</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Frontend Development</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Backend Development</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Database Management</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Web Development</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Software Development</span>
+                        <!-- TODO: Add more areas of interest -->
+                    </div>
+                </div>
+
+                <!-- Tools and Technologies -->
+                <div class="bg-gray-900 rounded-2xl p-8 border border-gray-800 hover:border-purple-500/50 transition-all duration-300">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="p-3 bg-purple-600/20 rounded-lg">
+                            <svg class="w-7 h-7 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold">Tools & Technologies</h2>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Git/GitHub</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">XAMPP Server</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">SQL Workbench</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Microsoft Office</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Visual Studio Code</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Canva</span>
+                        <!-- TODO: Add more tools and technologies -->
+                    </div>
+                </div>
+
+                <!-- Operating Systems -->
+                <div class="bg-gray-900 rounded-2xl p-8 border border-gray-800 hover:border-purple-500/50 transition-all duration-300">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="p-3 bg-purple-600/20 rounded-lg">
+                            <svg class="w-7 h-7 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-2xl font-bold">Operating Systems</h2>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">Windows</span>
+                        <span class="px-4 py-2 bg-gray-800 text-gray-200 rounded-lg border border-gray-700 hover:border-purple-500 hover:bg-gray-700 transition-all duration-300 font-medium">macOS</span>
+                        <!-- TODO: Add more operating systems if needed -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill Proficiency -->
+            <div class="mt-12 bg-gradient-to-r from-purple-900/20 to-indigo-900/20 rounded-2xl p-8 border border-purple-500/30">
+                <h2 class="text-2xl font-bold mb-6">Skill Proficiency</h2>
+                <div class="space-y-4">
+                    <!-- TODO: Add skill proficiency levels - customize these as needed -->
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-gray-300 font-medium">JAVA</span>
+                            <span class="text-purple-400 font-semibold">Advanced</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-600 h-2 rounded-full" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-gray-300 font-medium">Python</span>
+                            <span class="text-purple-400 font-semibold">Advanced</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-600 h-2 rounded-full" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-gray-300 font-medium">HTML+CSS</span>
+                            <span class="text-purple-400 font-semibold">Advanced</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-600 h-2 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-gray-300 font-medium">JavaScript</span>
+                            <span class="text-purple-400 font-semibold">Advanced</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-600 h-2 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-gray-300 font-medium">Data Structures & Algorithms</span>
+                            <span class="text-purple-400 font-semibold">Advanced</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-600 h-2 rounded-full" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-gray-300 font-medium">Full Stack Development</span>
+                            <span class="text-purple-400 font-semibold">Intermediate</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-600 h-2 rounded-full" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="text-gray-300 font-medium">Database Management</span>
+                            <span class="text-purple-400 font-semibold">Intermediate</span>
+                        </div>
+                        <div class="w-full bg-gray-700 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-600 h-2 rounded-full" style="width: 70%"></div>
+                        </div>
+                    </div>
+
+                    <!-- TODO: Add more skills with proficiency levels -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
